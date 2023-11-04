@@ -1,18 +1,18 @@
-#Description
+# Description
 In This project I used R programming lanuage and Microsoft PowerBI tool to analyze and visualize a sample RealEstate data from selected states in the USA, the dataset was downloaded from kaggle here: https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset.
 </br >This project demonstrates three components of the data analytics:
 </br >-Data Cleaning.
 </br >-Data Analysis.
 </br >-Data Visualization.
 
-##Data Cleaning.
-In this process i used an R script to get rid of all the rows in the dataset that contained NA values.
+## Data Cleaning.
+In this process I used an R script to get rid of all the rows in the dataset that contained NA values.
 ![Code](https://github.com/GoonerMH99/DataAnalysisProjs/assets/101012808/267ea44a-a2a6-4471-8eb8-7b5f76e90e30)
 For the purpose of getting realistic results i had to generate random dates in the prev_sold_date column using an Excel function.
 ![image](https://github.com/GoonerMH99/DataAnalysisProjs/assets/101012808/17e4215b-90ef-405c-991f-650b6c681a54)
 
 
-##Data Analysis
+## Data Analysis
 Using R programming languages, i was able to get some useful insights from analyzing this dataset.
 -Getting the Pearson Correlation Coeffecient between the house size the and the house price in each state.
 ![Corr](https://github.com/GoonerMH99/DataAnalysisProjs/assets/101012808/47dbb29d-38ba-4764-a618-393015d65cbc)
@@ -22,7 +22,7 @@ Using R programming languages, i was able to get some useful insights from analy
 ![model](https://github.com/GoonerMH99/DataAnalysisProjs/assets/101012808/b7a13051-eff9-4957-a761-ff8b1b7969d8)
 
 
-##Data Visualization
+## Data Visualization
 I used Microsoft PowerBI tool to visualize the insights that we got from the dataset and this is how the PowerBI looked like.
 ![Original Report](https://github.com/GoonerMH99/DataAnalysisProjs/assets/101012808/dede2125-74dd-43ed-9113-3dfff17e1db7)
 The report consisted of a map showing the states and colouring them according to their average selling prices, a scatter plot that showed the average price and average house size for each city and a bar chart that showed the average price for each city, along with a time slider and a state dropdown that would help with filtering the results that we want to see.
